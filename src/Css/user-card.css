@@ -1,0 +1,36 @@
+.user-card {
+    width: 220px;
+    height: 220px;
+    background-color: white;
+    border: 1px solid #f0f3fb;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+/* ==== */
+
+.avatar {
+    width: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.username {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.url {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/* ==== */

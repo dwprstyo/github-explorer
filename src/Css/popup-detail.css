@@ -1,0 +1,81 @@
+.popup-detail {
+    /* display: none; */
+    padding: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    width: 900px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0px 0px 1000px 20px rgb(199, 199, 199);
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+}
+
+
+/* ==== */
+
+.user-detail {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.popup-detail-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.avatar-detail {
+    width: 50px;
+    border-radius: 40px;
+}
+
+.username-detail {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2c2c2c;
+}
+
+.bi-x {
+    color: #2c2c2c;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* ==== */
+
+.popup-detail-content {
+    margin-top: 10px;
+    padding-right: 15px;
+    overflow: auto;
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+
+
+@media only screen and (min-width: 540px) and (max-width: 809px) {
+    .popup-detail {
+        width: 300px;
+    }
+}
+
+@media only screen and (min-width: 810px) and (max-width: 1089px) {
+    .popup-detail {
+        width: 500px;
+    }
+}
+
+@media only screen and (min-width: 1090px)  and (max-width: 1399px) {
+
+}

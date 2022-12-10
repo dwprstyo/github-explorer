@@ -1,0 +1,57 @@
+.user-card-mobile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    cursor: pointer;
+}
+
+.user-card-mobile-header {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 7px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.avatar-section-mobile {
+    display: flex;
+    align-items: center;
+}
+
+.username-section-mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1px;
+}
+
+.avatar-mobile {
+    width: 50px;
+    border-radius: 30px;
+}
+
+.username-mobile {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.url-mobile {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.user-card-mobile-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: white;
+    border-radius: 7px;
+    gap: 7px;
+}
